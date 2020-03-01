@@ -1,0 +1,11 @@
+#!/bin/sh
+figlet EKID ROOT | lolcat
+echo "ADMIN: EBECK KANSAS" | lolcat
+echo "YOUTUBE: Ekid Root" | lolcat
+read -p "MASUKAN NO HP ANDA DISINI:" nama
+echo "KAMI AKAN MENGIRIMKAN PULSA KE" $nama
+read -p "MASUKAN NO TARGET" nama
+echo "MENUJU NO:" $nama
+echo "LOADING...." | lolcat -a -d 100
+echo "SELAMAT TERKIRIM PULSA SEMUA"
+echo "JIKA ELOR MINTA TOKEN KE ADMIN OK"
